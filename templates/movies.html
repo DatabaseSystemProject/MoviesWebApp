@@ -1,0 +1,15 @@
+{% extends "index.html"%}
+{%block content %}
+    <ul class="list-group">
+    {% for movie in movies %}
+        <li class="list-group-item">
+            <img src="static/image_{{movie['id']}}.png" width = "50">
+            <b>{{movie['title']}}</b>,	
+            {{movie['year']}},
+            {{movie['director']}},
+            {{movie['writers']}},
+            {{movie['stars']}}
+        </li>
+    {%endfor%}
+    </ul>
+{%endblock%}
