@@ -45,3 +45,5 @@ Here's a video that demos all of the app's implemented features:
 
 **WebApp**
 <img src='https://i.imgur.com/Ahy5BZd.gif' title='Video Demo' width='' alt='Video Demo' />
+
+![](https://i.imgur.com/JL1snRo.gif)
